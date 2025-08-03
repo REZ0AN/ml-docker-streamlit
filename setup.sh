@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir -p ~/.streamlit/
 
 echo "\
@@ -7,3 +9,6 @@ enableCORS = false\n\
 headless = true\n\
 \n\
 " > ~/.streamlit/config.toml
+
+
+streamlit run app.py
